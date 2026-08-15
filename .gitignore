@@ -1,0 +1,22 @@
+# Compiled classes
+out/
+bin/
+*.class
+
+# Logs
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local DB credentials override (if you make one)
+src/main/resources/db.local.properties
