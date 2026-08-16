@@ -12,4 +12,4 @@ RUN mkdir -p out
 RUN javac -cp mysql-connector-j.jar -d out $(find src/main/java -name "*.java")
 RUN cp -r src/main/resources/* out/ 2>/dev/null || true
 
-CMD ["java", "-cp", "out:mysql-connector-j.jar", "com.library.ui.ConsoleApp"]
+CMD ["java", "-cp", "out:mysql-connector-j.jar", "com.library.ui.WebServer"]
